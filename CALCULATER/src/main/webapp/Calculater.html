@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="text-center mt-5 ">
+    <h1 class="text-center">Calculator</h1>
+    <form action="OperationalServlet" method="POST" class="text-bold">
+        <label for="num1" class="mb-3">Number 1:</label>
+        <input type="number" name="num1" required class="mb-3"><br>
+        <label for="num2" class="mb-3">Number 2:</label>
+        <input type="number" name="num2" required class="mb-3"><br>
+        <label for="operator" class="me-5">Operator:</label>
+        <select name="operator" class="me-2">
+            <option value="+">Addition (+)</option>
+            <option value="*">Multiplication (*)</option>
+        </select><br><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>

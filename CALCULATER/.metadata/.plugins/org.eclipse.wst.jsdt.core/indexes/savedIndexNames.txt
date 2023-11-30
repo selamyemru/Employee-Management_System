@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\Users\Wondalem\eclipse-workspaceN\calculater\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4095359496.index
+1708431297.index
+560056264.index
+1189371692.index
